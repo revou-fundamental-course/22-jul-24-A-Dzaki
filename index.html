@@ -3,7 +3,220 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>Tugas RevoU</title>
+        <link rel="stylesheet" href="css/style.css" />
     </head>
-    <body></body>
+    <body>
+        <nav>
+            <header>
+                <div>
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSMOkmrkO3OoSs87tjGLKLL7t7i0gjHsmVzw&s"
+                        alt="logo"
+                        class="logoicon" />
+                </div>
+            </header>
+            <section class="navigasibar">
+                <a href="#Home" class="navitem">Home</a>
+                <a href="#Ourpaket" class="navitem">Our Package</a>
+                <a href="#CallUs" class="navitem">Call Us</a>
+            </section>
+        </nav>
+        <hr />
+        <main class="main">
+            <article id="Home">
+                <header class="header-main">
+                    <h1>AGENT PARAWISATA TERPERCAYA</h1>
+                    <p>Kebahagiaan Kalian Kebahagiaan Kami</p>
+                </header>
+                <section class="main-section1">
+                    <section class="main-content1">
+                        <div class="main-banner">
+                            <div class="slide">
+                                <img
+                                    src="https://assets-a1.kompasiana.com/items/album/2023/07/04/dki-jakarta-64a3f1afe1a16755f62bb802.jpg"
+                                    alt="gambar"
+                                    class="main-gambar1" />
+                            </div>
+                            <div class="slide">
+                                <img
+                                    src="https://res.cloudinary.com/jnto/image/upload/w_1440,h_900,c_fill,f_auto,fl_lossy,q_60/v1/media/filer_public/81/35/81354252-25c7-42ea-b19c-908e8c9f2b05/istock-873678330_1_ibekze"
+                                    alt="gambar"
+                                    class="main-gambar2" />
+                            </div>
+                            <div class="slide">
+                                <img
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ10sXdfAVpY4qCATC_4LEJCV7eV1seOBNGA&s"
+                                    alt="gambar"
+                                    class="main-gambar3" />
+                            </div>
+                        </div>
+                        <p class="paragraf-content1">
+                            Liburan menjadi lebih menyenangkan bersama TravelJi
+                        </p>
+                        <div class="main-profile1">
+                            <div>
+                                <img
+                                    src="https://randomwordgenerator.com/img/picture-generator/fantasy-3041033_640.jpg"
+                                    alt="profile"
+                                    class="profile" />
+                            </div>
+                            <div>
+                                <p class="main-profile2">Nama</p>
+                                <p class="main-profile2">Pekerjaan</p>
+                            </div>
+                        </div>
+                        <article>
+                            <div>
+                                <h3>Kelebihan Wisata Bersama Kami TravelJi</h3>
+                            </div>
+                            <div class="container-promo">
+                                <ul>
+                                    <li class="promo">
+                                        Kemudahan dalam melakukan
+                                        perjalanan.Pergi Wisata dengan kami
+                                        kalian tinggal duduk tenang kami yang
+                                        mengatur semua
+                                    </li>
+                                </ul>
+                            </div>
+                        </article>
+                    </section>
+                    <form class="main-content2">
+                        <section class="main-form1">
+                            <article class="main-form2">
+                                <h3>Contact Us</h3>
+                                <p>
+                                    Sales akan menghubungi anda 1x24 Jam setelah
+                                    data kami terima
+                                </p>
+                            </article>
+                            <form class="main-form3">
+                                <label for="Nama">Nama Kamu :</label>
+                                <input id="Nama" type="text" required />
+                                <br />
+                                <label for="Email">Masukkan Email :</label>
+                                <input
+                                    id="Email"
+                                    type="email"
+                                    value="example@email.com"
+                                    required />
+                                <br />
+                                <label for="interest">Minat Anda:</label>
+                                <select id="interest">
+                                    <option value="" disabled selected>
+                                        Pilih Minatmu
+                                    </option>
+                                    <option value="option1">Pilihan 1</option>
+                                    <option value="option2">Pilihan 2</option>
+                                    <option value="option3">Pilihan 3</option>
+                                </select>
+                                <br />
+                                <button type="submit">Kirim</button>
+                            </form>
+                        </section>
+                    </form>
+                </section>
+            </article>
+            <!-- Our Paket -->
+            <article id="Ourpaket">
+                <section>
+                    <article class="main-article1">
+                        <h1>Our Package</h1>
+                    </article>
+                    <section
+                        class="main-section2"
+                        onsubmit="formValidation(event);">
+                        <div class="paket">
+                            <div class="icon">&#x1F685;</div>
+                            <h4>Jakarta</h4>
+                            <p>Jelajahi Keindahan Jakarta</p>
+                            <p>
+                                Temukan pesona ibu kota Indonesia dengan
+                                pengalaman perjalanan yang tak terlupakan.
+                            </p>
+                        </div>
+                        <div class="paket">
+                            <div class="icon">&#x1F685;</div>
+                            <h4>Bali</h4>
+                            <p>Jelajahi Keindahan Bali</p>
+                            <p>
+                                Nikmati keindahan Pulau Dewata dengan perjalanan
+                                yang memanjakan semua indra Anda dengan
+                                pantainya yang menawan.
+                            </p>
+                        </div>
+                        <div class="paket">
+                            <div class="icon">&#x1F685;</div>
+                            <h4>Semarang</h4>
+                            <p>Jelajahi Keindahan Semarang</p>
+                            <p>
+                                Temukan pesona ibu kota Jawa Tengah dengan
+                                pengalaman perjalanan yang penuh keajaiban, kota
+                                yang kaya akan sejarah dan budaya.
+                            </p>
+                        </div>
+                        <div class="paket">
+                            <div class="icon">&#x1F6EB;</div>
+                            <h4>Jepang</h4>
+                            <p>Jelajahi Keindahan Jepang</p>
+                            <p>
+                                Temukan keajaiban negeri matahari terbit dengan
+                                perjalanan yang penuh kenangan indah.
+                            </p>
+                        </div>
+                        <div class="paket">
+                            <div class="icon">&#x1F6EB;</div>
+                            <h4>Australia</h4>
+                            <p>Jelajahi Keindahan Australia</p>
+                            <p>
+                                Nikmati pesona negeri kanguru dengan perjalanan
+                                yang penuh keindahan alam dan pengalaman tak
+                                terlupakan.
+                            </p>
+                        </div>
+                        <div class="paket">
+                            <div class="icon">&#x1F6EB;</div>
+                            <h4>Singapore</h4>
+                            <p>Jelajahi Keindahan Singapore</p>
+                            <p>
+                                Temukan keajaiban Negeri Singa dengan perjalanan
+                                yang penuh pengalaman tak terlupakan, kota yang
+                                modern dan dinamis.
+                            </p>
+                        </div>
+                    </section>
+                </section>
+            </article>
+
+            <!-- Call Us -->
+            <article id="CallUs">
+                <section class="divbah">
+                    <section class="secbawah">
+                        <article class="parafbawah">
+                            <div class="penutup">
+                                <h1>Liburan Bersama TravelJi</h1>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat.
+                            </p>
+                        </article>
+                        <div class="tombolbawah">
+                            <button type="submit">Call to Action</button>
+                        </div>
+                    </section>
+                </section>
+            </article>
+        </main>
+        <hr />
+        <footer class="foter">
+            <h2>TravelJi</h2>
+        </footer>
+        <script src="js\script.js"></script>
+    </body>
 </html>
